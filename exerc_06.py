@@ -22,14 +22,13 @@ def calcular_media(qtd_alunos,qtd_notas):
             #adiciona na lista de reprovados as sub listas [i] e [media]
             lista_reprovados.append([i] + [media])
             
-
     print("Aprovados: ",lista_aprovados)
     print("Reprovados: ",lista_reprovados)   
+
 
 def main():
     qtd_alunos = int(input("Informe a quantidade de alunos: "))
     qtd_notas = int(input("Informe a quantidade de notas: "))
-
     calcular_media(qtd_alunos,qtd_notas)
 
 
