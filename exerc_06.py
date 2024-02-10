@@ -1,8 +1,5 @@
-# Crie uma lista m de alunos com uma quantidade n de notas. 
-# Calcule a média dessas notas e gere duas listas 
-# uma de alunos aprovados e outra de alunos  reprovados.
 
-
+# função destinada a calcular a media e separar em duas listas "aprovados" e "reprovados"
 def calcular_media(qtd_alunos,qtd_notas):
     lista_aprovados = []
     lista_reprovados = []
